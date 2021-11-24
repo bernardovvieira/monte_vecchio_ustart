@@ -67,8 +67,8 @@
                                     <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">Marca</th>
-                                        <th scope="col">Ano</th>
                                         <th scope="col">Modelo</th>
+                                        <th scope="col">Ano</th>
                                         <th scope="col">Observação</th>
                                     </tr>
                                 </thead>
@@ -78,8 +78,8 @@
                                         <tr>
                                             <th scope="row">{{ $frota->id }}</th>
                                             <td>{{ $frota->marca }}</td>
-                                            <td>{{ $frota->ano }}</td>
                                             <td>{{ $frota->modelo }}</td>
+                                            <td>{{ $frota->ano }}</td>
                                             <td>{{ $frota->observacao }}</td>
                                             <td class="row">
                                                 <a href="{{ route('editar', $frota->id) }}" type="button"

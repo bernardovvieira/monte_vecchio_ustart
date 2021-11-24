@@ -14,11 +14,13 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
+Auth::routes(['verify' => true]);
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware(["verified"]);
 
 Route::group(['prefix' => 'frota', 'where' => ['id' => '[0-9]+']], function () {
 
@@ -31,5 +33,3 @@ Route::group(['prefix' => 'frota', 'where' => ['id' => '[0-9]+']], function () {
     Route::delete('{id}/excluir', ['as' => 'excluir', 'uses' => 'App\Http\Controllers\FrotaController@excluir']);
 
 });
-
-Auth::routes();
