@@ -11,7 +11,10 @@
     <style>
         html,
         body {
+            background-image: url("https://coredebotucarai.org.br/bernardo/imagens/cars-bk.jpg");
             background-color: #fff;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #000000;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
@@ -41,13 +44,20 @@
 
         .content {
             text-align: center;
+            border-radius: 8px;
+            flex-direction: column;
+            align-items: center;
         }
 
         .title {
             font-size: 84px;
+            background-color: rgba(255,255,255,0.5);
+            border-radius: 8px;
         }
 
         .links>a {
+            background-color: rgba(255,255,255,0.5);
+            border-radius: 8px;
             color: #000000;
             padding: 0 25px;
             font-size: 13px;
@@ -56,9 +66,25 @@
             text-decoration: none;
             text-transform: uppercase;
         }
+        .links>a:hover {
+            opacity: 1;
+            right: 10px;
+            color: #000000;
+            background-color: rgb(207, 207, 207);
+        }
 
         .m-b-md {
-            margin-bottom: 30px;
+            margin-bottom: 15px;
+        }
+
+        .pg-box {
+            background-color: rgba(255,255,255,0.5);
+            border-radius: 8px;
+            width: 100px;
+            padding: 20px;
+            margin-bottom: 15px;
+            margin-left: 40%;
+            align-items: center;
         }
 
     </style>
@@ -92,7 +118,6 @@
             </div>
         @endif
         <div class="content">
-            <img src="https://coredebotucarai.org.br/bernardo/imagens/favicon.ico" alt="car_logo">
             <div class="title m-b-md">
                 Monte Vecchio
             </div>
