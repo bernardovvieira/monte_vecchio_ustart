@@ -50,7 +50,7 @@
 
         .title {
             font-size: 84px;
-            text-shadow:1px 1px 20px #fff, 1px 1px 20px #ccc;
+            text-shadow:1px 1px 20px rgb(0, 0, 0), 1px 1px 20px #ccc;
         }
 
         .links>a {
@@ -63,14 +63,14 @@
             letter-spacing: .1rem;
             text-decoration: none;
             text-transform: uppercase;
-            text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+            text-shadow:1px 1px 10px rgb(0, 0, 0), 1px 1px 10px #ccc;
         }
         .links>a:hover {
             opacity: 1;
             right: 10px;
             color: #000000;
 
-            text-shadow:1px 1px 10px rgb(0, 0, 0), 1px 1px 10px #ccc;
+            text-shadow:1px 1px 20px rgb(0, 0, 0), 1px 1px 20px #ccc;
         }
 
         .m-b-md {
