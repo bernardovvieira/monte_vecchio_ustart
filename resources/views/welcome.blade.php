@@ -11,7 +11,7 @@
     <style>
         html,
         body {
-            background-image: url("https://images.wallpaperscraft.com/image/single/road_junction_interchange_road_roads_131526_3840x2400.jpg");
+            background-image: url("https://coredebotucarai.org.br/bernardo/imagens/road.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             color: #fff;

@@ -1,6 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
+
+<style>
+    html,
+        body {
+            background-image: url("https://coredebotucarai.org.br/bernardo/imagens/road.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+</style>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
