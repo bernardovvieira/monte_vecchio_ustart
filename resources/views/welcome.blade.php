@@ -49,8 +49,8 @@
         }
 
         .title {
-            font-size: 84px;
-            text-shadow:1px 1px 20px rgb(0, 0, 0), 1px 1px 20px #ccc;
+            font-size: 87px;
+            text-shadow:5px 5px 20px rgb(0, 0, 0), 5px 5px 20px rgba(0, 0, 0, 0.575);
         }
 
         .links>a {
@@ -58,7 +58,7 @@
             border-radius: 8px;
             color: rgb(255, 255, 255);
             padding: 0 45px;
-            font-size: 13px;
+            font-size: 15px;
             font-weight: 600;
             letter-spacing: .1rem;
             text-decoration: none;
