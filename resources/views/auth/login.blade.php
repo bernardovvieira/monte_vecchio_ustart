@@ -1,6 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
+
+<style>
+    html,
+        body {
+            background-image: url("https://images.wallpaperscraft.com/image/single/road_junction_interchange_road_roads_131526_3840x2400.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+</style>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

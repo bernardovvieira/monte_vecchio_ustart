@@ -2,13 +2,22 @@
 
 @section('content')
 
+<style>
+    html,
+        body {
+            background-image: url("https://images.wallpaperscraft.com/image/single/road_junction_interchange_road_roads_131526_3840x2400.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+</style>
+
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">{{ __('Controle de veículos') }}
                         <a href="{{ route('criar') }}" type="button" class="float-right btn btn-primary">Adicionar
-                            Frota</a>
+                            Veículo</a>
                     </div>
 
                     @php
@@ -55,7 +64,8 @@
                                 title: 'Excluído!',
                                 text: msg,
                                 showConfirmButton: false,
-                                timer: 1500
+                                timer: 1500,
+                                timerProgressBar: true
                             })
                         }
                     </script>

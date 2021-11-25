@@ -4,18 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Monte Vecchio - Frotas Automotivas</title>
+    <title>MONTE VECCHIO - Frotas Automotivas</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <!-- Styles -->
     <style>
         html,
         body {
-            background-image: url("https://coredebotucarai.org.br/bernardo/imagens/cars-bk.jpg");
-            background-color: #fff;
+            background-image: url("https://images.wallpaperscraft.com/image/single/road_junction_interchange_road_roads_131526_3840x2400.jpg");
             background-repeat: no-repeat;
             background-size: cover;
-            color: #000000;
+            color: #fff;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
             height: 100vh;
@@ -51,26 +50,27 @@
 
         .title {
             font-size: 84px;
-            background-color: rgba(255,255,255,0.5);
-            border-radius: 8px;
+            text-shadow:1px 1px 20px #fff, 1px 1px 20px #ccc;
         }
 
         .links>a {
-            background-color: rgba(255,255,255,0.5);
+            background-color: rgba(255, 255, 255, 0.637);
             border-radius: 8px;
-            color: #000000;
-            padding: 0 25px;
+            color: rgb(255, 255, 255);
+            padding: 0 45px;
             font-size: 13px;
             font-weight: 600;
             letter-spacing: .1rem;
             text-decoration: none;
             text-transform: uppercase;
+            text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
         }
         .links>a:hover {
             opacity: 1;
             right: 10px;
             color: #000000;
-            background-color: rgb(207, 207, 207);
+
+            text-shadow:1px 1px 10px rgb(0, 0, 0), 1px 1px 10px #ccc;
         }
 
         .m-b-md {
@@ -78,7 +78,7 @@
         }
 
         .pg-box {
-            background-color: rgba(255,255,255,0.5);
+            background-color: rgba(255, 255, 255, 0.637);
             border-radius: 8px;
             width: 100px;
             padding: 20px;
@@ -119,7 +119,7 @@
         @endif
         <div class="content">
             <div class="title m-b-md">
-                Monte Vecchio
+                MONTE VECCHIO
             </div>
             <div class="links">
                 <a href="#" onclick="btn_info();">Veículos</a>
