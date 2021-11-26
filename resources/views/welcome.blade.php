@@ -50,7 +50,7 @@
 
         .title {
             font-size: 87px;
-            text-shadow:5px 5px 20px rgb(0, 0, 0), 5px 5px 20px rgba(0, 0, 0, 0.575);
+            text-shadow:10px 10px 40px rgb(0, 0, 0), 10px 10px 40px rgb(0, 0, 0);
         }
 
         .links>a {
@@ -69,7 +69,6 @@
             opacity: 1;
             right: 10px;
             color: #000000;
-
             text-shadow:1px 1px 20px rgb(0, 0, 0), 1px 1px 20px #ccc;
         }
 
@@ -93,7 +92,7 @@
     <script>
         function btn_info() {
             Swal.fire({
-                icon: 'info',
+                icon: 'warning',
                 title: 'Conteúdo não disponível no momento',
                 text: 'Por favor, tente novamente mais tarde.',
                 showConfirmButton: false,
