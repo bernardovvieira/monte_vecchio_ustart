@@ -5,7 +5,7 @@
 <style>
     html,
         body {
-            background-image: url("https://coredebotucarai.org.br/bernardo/imagens/road.jpg");
+            background-image: url("https://bitwise.dev.br/bernardo/laravel/img/road.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }
